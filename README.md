@@ -4,6 +4,8 @@ This is a simple GPA calculator I developed after learning about String Interpol
 
 See project tutorial here: https://medium.com/@apurbaakash/coding-your-first-angular-app-with-string-interpolation-5968937bd6a8?source=friends_link&sk=ec2c41d18a413b8696bdeae8a38b082c
 
+![](angular_gpa_app.gif)
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
