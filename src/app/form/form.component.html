@@ -1,0 +1,135 @@
+<!--This is the template for my about component-->
+<div class = "container" style="margin-bottom: 1em;">
+        <div class = "row">
+                <div class = "col-md-6 col-md-offset-3"  style="background-color: salmon; color: white; padding-top: 2em; padding-bottom: 2em; border-radius: 1em;">
+                    <form class="form-horizontal">
+                        <p>Select grade for first unit</p>
+                            <select class="form-control" [(ngModel)] = "firstGrade" [ngModelOptions]="{standalone: true}" >
+                                <option>HD</option>
+                                <option>D</option>
+                                <option>C</option>
+                                <option>P</option>
+                                <option>N</option>
+                            </select>
+                            <p style = "margin-top: 1em;">Select number of credits</p>
+                            <select class="form-control" [(ngModel)] = "firstCredit" [ngModelOptions]="{standalone: true}">
+                                    <option>4</option>
+                                    <option>6</option>
+                                    <option>12</option>
+                                </select>
+                    </form>
+                    
+                </div>
+            </div>
+</div>
+<div class = "container" style="margin-bottom: 1em;">
+        <div class = "row">
+                <div class = "col-md-6 col-md-offset-3"  style="background-color: salmon; color: white; padding-top: 2em; padding-bottom: 2em; border-radius: 1em;">
+                    <form class="form-horizontal">
+                        <p>Select grade for second unit</p>
+                            <select class="form-control" [(ngModel)] = "secondGrade" [ngModelOptions]="{standalone: true}">
+                                <option>HD</option>
+                                <option>D</option>
+                                <option>C</option>
+                                <option>P</option>
+                                <option>N</option>
+                            </select>
+                    </form>
+                    <p style = "margin-top: 1em;">Select number of credits</p>
+                    <select class="form-control" [(ngModel)] = "secondCredit" [ngModelOptions]="{standalone: true}">
+                            <option>4</option>
+                            <option>6</option>
+                            <option>12</option>
+                        </select>
+                    
+                </div>
+            </div>
+</div>
+
+<div class = "container" style="margin-bottom: 1em;">
+        <div class = "row">
+                <div class = "col-md-6 col-md-offset-3"  style="background-color: salmon; color: white; padding-top: 2em; padding-bottom: 2em; border-radius: 1em;">
+                    <form class="form-horizontal">
+                        <p>Select grade for third unit</p>
+                            <select class="form-control" [(ngModel)] = "thirdGrade" [ngModelOptions]="{standalone: true}">
+                                <option>HD</option>
+                                <option>D</option>
+                                <option>C</option>
+                                <option>P</option>
+                                <option>N</option>
+                            </select>
+                    </form>
+                    <p style = "margin-top: 1em;">Select number of credits</p>
+                    <select class="form-control" [(ngModel)] = "thirdCredit" [ngModelOptions]="{standalone: true}">
+                            <option>4</option>
+                            <option>6</option>
+                            <option>12</option>
+                        </select>
+                    
+                </div>
+            </div>
+</div>
+
+<div class = "container" style="margin-bottom: 1em;">
+        <div class = "row">
+                <div class = "col-md-6 col-md-offset-3"  style="background-color: salmon; color: white; padding-top: 2em; padding-bottom: 2em; border-radius: 1em;">
+                    <form class="form-horizontal">
+                        <p>Select grade for fourth unit</p>
+                            <select class="form-control" [(ngModel)] = "fourthGrade" [ngModelOptions]="{standalone: true}">
+                                <option>HD</option>
+                                <option>D</option>
+                                <option>C</option>
+                                <option>P</option>
+                                <option>N</option>
+                            </select>
+                    </form>
+                    <p style = "margin-top: 1em;">Select number of credits</p>
+                    <select class="form-control" [(ngModel)] = "fourthCredit" [ngModelOptions]="{standalone: true}">
+                            <option>4</option>
+                            <option>6</option>
+                            <option>12</option>
+                        </select>
+                    
+                </div>
+            </div>
+</div>
+
+<div class = container style = "margin-bottom: 1em;">
+    <div class = row>
+        <div class = "col-md-6 col-md-offset-3">
+            <p class = "lead">Your GPA is: {{ calculateTotalGPA() }}</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
